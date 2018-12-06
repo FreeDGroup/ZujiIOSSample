@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00770EAA21B980E700AAB6D9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00770EA921B980E700AAB6D9 /* ChatViewController.swift */; };
 		00E6FCFE21B94528001E48DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E6FCFD21B94528001E48DD /* AppDelegate.swift */; };
-		00E6FD0021B94528001E48DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E6FCFF21B94528001E48DD /* ViewController.swift */; };
-		00E6FD0321B94528001E48DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E6FD0121B94528001E48DD /* Main.storyboard */; };
 		00E6FD0521B9452A001E48DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00E6FD0421B9452A001E48DD /* Assets.xcassets */; };
-		00E6FD0821B9452A001E48DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00E6FD0621B9452A001E48DD /* LaunchScreen.storyboard */; };
 		00E6FD1321B9452A001E48DD /* ZujiIOSSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E6FD1221B9452A001E48DD /* ZujiIOSSampleTests.swift */; };
 		00E6FD1E21B9452A001E48DD /* ZujiIOSSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E6FD1D21B9452A001E48DD /* ZujiIOSSampleUITests.swift */; };
+		00E6FD5021B96E5C001E48DD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E6FD4F21B96E5C001E48DD /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +33,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00770EA921B980E700AAB6D9 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		00E6FCFA21B94528001E48DD /* ZujiIOSSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZujiIOSSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E6FCFD21B94528001E48DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		00E6FCFF21B94528001E48DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		00E6FD0221B94528001E48DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00E6FD0421B9452A001E48DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00E6FD0721B9452A001E48DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00E6FD0921B9452A001E48DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E6FD0E21B9452A001E48DD /* ZujiIOSSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZujiIOSSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E6FD1221B9452A001E48DD /* ZujiIOSSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZujiIOSSampleTests.swift; sourceTree = "<group>"; };
@@ -47,6 +44,7 @@
 		00E6FD1921B9452A001E48DD /* ZujiIOSSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZujiIOSSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E6FD1D21B9452A001E48DD /* ZujiIOSSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZujiIOSSampleUITests.swift; sourceTree = "<group>"; };
 		00E6FD1F21B9452A001E48DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E6FD4F21B96E5C001E48DD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +96,10 @@
 			isa = PBXGroup;
 			children = (
 				00E6FCFD21B94528001E48DD /* AppDelegate.swift */,
-				00E6FCFF21B94528001E48DD /* ViewController.swift */,
-				00E6FD0121B94528001E48DD /* Main.storyboard */,
 				00E6FD0421B9452A001E48DD /* Assets.xcassets */,
-				00E6FD0621B9452A001E48DD /* LaunchScreen.storyboard */,
 				00E6FD0921B9452A001E48DD /* Info.plist */,
+				00E6FD4F21B96E5C001E48DD /* HomeViewController.swift */,
+				00770EA921B980E700AAB6D9 /* ChatViewController.swift */,
 			);
 			path = ZujiIOSSample;
 			sourceTree = "<group>";
@@ -229,9 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E6FD0821B9452A001E48DD /* LaunchScreen.storyboard in Resources */,
 				00E6FD0521B9452A001E48DD /* Assets.xcassets in Resources */,
-				00E6FD0321B94528001E48DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +251,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E6FD0021B94528001E48DD /* ViewController.swift in Sources */,
 				00E6FCFE21B94528001E48DD /* AppDelegate.swift in Sources */,
+				00770EAA21B980E700AAB6D9 /* ChatViewController.swift in Sources */,
+				00E6FD5021B96E5C001E48DD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +287,6 @@
 			targetProxy = 00E6FD1A21B9452A001E48DD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		00E6FD0121B94528001E48DD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00E6FD0221B94528001E48DD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		00E6FD0621B9452A001E48DD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00E6FD0721B9452A001E48DD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		00E6FD2021B9452A001E48DD /* Debug */ = {
