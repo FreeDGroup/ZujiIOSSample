@@ -34,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		00770EA921B980E700AAB6D9 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		008DCF0421BA167000AB78EB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		00E6FCFA21B94528001E48DD /* ZujiIOSSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZujiIOSSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E6FCFD21B94528001E48DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00E6FD0421B9452A001E48DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -75,6 +76,7 @@
 		00E6FCF121B94528001E48DD = {
 			isa = PBXGroup;
 			children = (
+				008DCF0421BA167000AB78EB /* README.md */,
 				00E6FCFC21B94528001E48DD /* ZujiIOSSample */,
 				00E6FD1121B9452A001E48DD /* ZujiIOSSampleTests */,
 				00E6FD1C21B9452A001E48DD /* ZujiIOSSampleUITests */,
